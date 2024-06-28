@@ -1,0 +1,148 @@
+\documentclass[
+  a4paper,
+  10pt,
+  dvipdfmx
+]{article}
+
+\usepackage{geometry}
+\geometry{left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
+
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+% \AtBeginDocument{\hypersetup{
+%   pdfborderstyle={/S/U/W 1}
+% }}
+\begin{document}
+
+
+\newcommand{\cvsection}[1]{
+  \section*{#1}
+  \hrule
+  \bigskip
+}
+
+\title{
+  \vspace{-2cm}Nutchanon Taechasuk / Quatton \\
+  \vspace{0.25cm}
+  \large{I like new stuff and I make software development enjoyable and productive :)} \\
+  \vspace{0.25cm}
+  \small{
+    \href{mailto:atomicative@gmail.com}{Email: atomicative@gmail.com}
+    \hfill
+    \href{tel:+8180-3856-5554}{Tel: 080-3856-5554}
+    \hfill
+    \href{http://github.com/Quatton}{GitHub: Quatton}
+    \hfill
+    \href{http://linkedin.com/in/nutchanon-taechasuk/}{LinkedIn: nutchanon-taechasuk}
+    \hfill
+    \href{http://x.com/quattonbud}{X: @quattonbud}
+  }
+  \vspace{-1.5cm}
+
+}
+\date{}
+\maketitle
+\pagenumbering{gobble}
+
+% unnumbered section
+\cvsection{Education}
+\begin{enumerate}[]
+  \item \textbf{University of Tokyo, Tokyo, Japan} \hfill 2022 Mar - 2026 Mar (Expected)
+
+        3rd Year Undergraduate Student, Department of Information Science, Faculty of Science (MEXT Scholarship)
+\end{enumerate}
+
+
+\cvsection{Actively Used Technologies \& Languages}
+
+\begin{itemize}
+  \itemsep0em
+  \item \textbf{Programming Languages:} TypeScript, JavaScript, Rust, Python, Dart, C, OCaml, SQL
+  \item \textbf{Actively Used Technologies:} Next.js, React, TailwindCSS, PostgreSQL, PyTorch, Bevy
+  \item \textbf{Tools \& Platforms:} Supabase, Git, Docker,
+        \href{https://pulumi.com}{Pulumi}, AWS (S3, ECS, Lambda), Vercel, Cloudflare
+  \item \textbf{Languages:} English (Business), Japanese (Business), Thai (Native)
+\end{itemize}
+
+\cvsection{Work Experience}
+\begin{enumerate}[]
+  \item \textbf{Sasatech Co. Ltd., Japan} \hfill 2023 Nov - 2024 Apr
+
+        % Sasatech is a System Engineering Service company that provides contracted development services
+
+        Next.js Engineer Intern -- (Next.js, React, TypeScript, Tailwind CSS, Supabase, Vercel)
+
+        Main Responsibilities: Building reusable components, standardizing the development process, and micro-optimization
+        \begin{itemize}
+          \item Pioneered a schema-agnostic, customizable foundation for building admin panels and CMS
+                \begin{itemize}
+                  \item Supported complex relations, dynamic form generation, and image uploads
+                  \item Successfully deployed one project to production with over 1,000 rows of data and 15 tables
+                  \item Saved 80\% from estimated development time via dynamic routes and code generation scripts
+                \end{itemize}
+          \item Automated synchronization of page view ranking using CRON jobs and Google Analytics API
+          \item Implemented utility functions for data querying and mutations
+                \begin{itemize}
+                  \item Fixed rate-limiting issues via server-side caching, reducing API calls by over 90\%
+                  \item Supported complex nested filtering, sorting, and pagination for large datasets
+                  \item Standardized access control for viewing public, private, and unlisted pages
+                \end{itemize}
+        \end{itemize}
+\end{enumerate}
+
+\cvsection{Recent Projects}
+
+\begin{enumerate}[]
+  \item \textbf{scrb -- Next-gen Scribblenauts clone built with Bevy and cutting-edge ML models} \hfill 2024 Jun - Present
+
+        \begin{itemize}
+          \item Currently under development with \href{https://buildspace.so/}{Buildspace}, an intensive 6-week idea-to-launch program
+          \item Optimized the text-to-3d generation pipeline to generate game assets in sub 30 seconds
+          \item Support over 30000+ color names and arbitrary size modifiers using a dynamically loaded Trie tree
+        \end{itemize}
+        % \item \textbf{mrdm -- // TODO: list management tool} \href{https://github.com/Quatton/mrdm-cli}{[GitHub]} \href{https://crates.io/crates/mrdm}{[crates.io]} \hfill 2024 Apr - Present
+        % \item
+        %       Meridiem, Rust-based Open-source CLI tool for managing inline TODOs with over 300 downloads on \texttt{crates.io}
+
+
+        %       \begin{itemize}
+        %         \item Utilized regex-based pattern matching for extracting TODO comments from source code
+        %         \item Implemented features for tracking done status and exporting to readable markdown files
+        %       \end{itemize}
+
+  \item \textbf{Memoiz -- Search Engine for Personal Notes} \href{https://lablab.ai/event/ai-startup-hackathon-episode-2/we-absolutely-have-no-idea/memoiz}{[Lablab.ai]} \hfill 2023 Apr
+
+        Lablab.ai Build your AI Startup Hackathon. Episode 2: \textbf{Winner}
+
+        (Next.js, React, TypeScript, Tailwind CSS, Prisma, MySQL, Redis, Cohere, Vercel, tRPC)
+
+        \begin{itemize}
+          \item Led a team of two to develop a full-stack web application for organizing and searching personal notes in 7 days
+          \item Explored cutting-edge AI technologies through implementing vector-based semantic search via Redis and Cohere
+          \item Standarized data querying, validation, and mutation using end-to-end type-safe APIs
+                \begin{itemize}
+                  \item Reduced boilerplate code by 50\% from initial REST-based implementation
+                  \item Boosted DX and team productivity, contributing to the project's success under tight deadlines
+                \end{itemize}
+        \end{itemize}
+
+  \item \textbf{Refoodable -- Unsold Food Redistribution Platform} \href{https://github.com/supawichable/ReFoodable}{[GitHub]}
+        \hfill 2023 Feb - 2023 Jun
+
+        Google Solution Challenge 2023: \textbf{Top 100 Finalist}
+        (Flutter, Firebase, Google Maps API)
+
+        \begin{itemize}
+          \item Led a team of four to design and develop a socially impactful mobile application in 2 months
+          \item Augmented a type-safe layer for schemaless and dynamic data structure using class extensions
+                \begin{itemize}
+                  \item Reduced runtime errors and improved code readablity for members not familiar with NoSQL
+                \end{itemize}
+          \item Utilizing a geohashing algorithm to filter nearby stores from over 100+ entries in real-time
+        \end{itemize}
+\end{enumerate}
+
+
+
+\end{document}
