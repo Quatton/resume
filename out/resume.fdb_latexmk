@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1737656326.56878 "out/resume.dvi" "out/resume.pdf" "out/resume" 1737656326.85982 0
+["dvipdf"] 1737656359.93193 "out/resume.dvi" "out/resume.pdf" "out/resume" 1737656360.22873 0
   "out/resume.dvi" 1737656326.55145 6724 f1d54cc41e59675b5e2a74aefc143d9f "latex"
   (generated)
   "out/resume.pdf"
   (rewritten before read)
-["latex"] 1737656326.27047 "/Users/quatton/Documents/GitHub/resume/resume.tex" "out/resume.dvi" "resume" 1737656326.85929 0
-  "/Users/quatton/Documents/GitHub/resume/resume.tex" 1737656325.97262 7405 81701c706dc1dc58a7f66ed23a9fb8ee ""
+["latex"] 1737656326.27047 "/Users/quatton/Documents/GitHub/resume/resume.tex" "out/resume.dvi" "resume" 1737656360.22814 0
+  "/Users/quatton/Documents/GitHub/resume/resume.tex" 1737656359.71701 7405 81701c706dc1dc58a7f66ed23a9fb8ee ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -68,7 +68,7 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "out/resume.aux" 1737656326.55103 128 96bec76fb2d4f59905e799aefa8e9f5a "latex"
   "out/resume.out" 1737656326.54085 0 d41d8cd98f00b204e9800998ecf8427e "latex"
-  "resume.tex" 1737656325.97262 7405 81701c706dc1dc58a7f66ed23a9fb8ee ""
+  "resume.tex" 1737656359.71701 7405 81701c706dc1dc58a7f66ed23a9fb8ee ""
   (generated)
   "out/resume.aux"
   "out/resume.dvi"
