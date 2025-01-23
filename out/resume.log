@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2024.4.5)  28 JUN 2024 18:09
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.euc) (TeX Live 2024) (preloaded format=platex 2024.4.5)  24 JAN 2025 03:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -228,33 +228,37 @@ Package hyperref Info: Link coloring OFF on input line 16.
 \openout3 = `resume.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
+(Font)              <6> on input line 41.
 
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 50.
+             The label is:  on input line 45.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 51.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 51.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 69.
+             The label is:  on input line 62.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 70.
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 96.
+             The label is:  on input line 104.
 
 [1
 
@@ -268,12 +272,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8037 strings out of 474774
- 125797 string characters out of 5758802
- 1943032 words of memory out of 5000000
- 30349 multiletter control sequences out of 15000+600000
+ 8039 strings out of 474774
+ 125825 string characters out of 5758802
+ 1940032 words of memory out of 5000000
+ 30351 multiletter control sequences out of 15000+600000
  568374 words of font info for 76 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,6n,79p,276b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/resume.dvi (1 page, 7396 bytes).
+Output written on out/resume.dvi (1 page, 6724 bytes).

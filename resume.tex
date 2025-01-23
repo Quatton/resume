@@ -25,8 +25,6 @@
 \title{
   \vspace{-2cm}Nutchanon Taechasuk / Quatton \\
   \vspace{0.25cm}
-  \large{I like new stuff and I make software development enjoyable and productive :)} \\
-  \vspace{0.25cm}
   \small{
     \href{mailto:atomicative@gmail.com}{Email: atomicative@gmail.com}
     \hfill
@@ -34,12 +32,9 @@
     \hfill
     \href{http://github.com/Quatton}{GitHub: Quatton}
     \hfill
-    \href{http://linkedin.com/in/nutchanon-taechasuk/}{LinkedIn: nutchanon-taechasuk}
-    \hfill
     \href{http://x.com/quattonbud}{X: @quattonbud}
   }
   \vspace{-1.5cm}
-
 }
 \date{}
 \maketitle
@@ -58,15 +53,28 @@
 
 \begin{itemize}
   \itemsep0em
-  \item \textbf{Programming Languages:} TypeScript, JavaScript, Rust, Python, Dart, C, OCaml, SQL
-  \item \textbf{Actively Used Technologies:} Next.js, React, TailwindCSS, PostgreSQL, PyTorch, Bevy
-  \item \textbf{Tools \& Platforms:} Supabase, Git, Docker,
-        \href{https://pulumi.com}{Pulumi}, AWS (S3, ECS, Lambda), Vercel, Cloudflare
+  \item \textbf{Programming Languages:} TypeScript, JavaScript, Rust, Python, Dart (Flutter), C, OCaml
+  \item \textbf{Actively Used Technologies:} Next.js, Vue.js, React, TailwindCSS, PostgreSQL
   \item \textbf{Languages:} English (Business), Japanese (Business), Thai (Native)
 \end{itemize}
 
 \cvsection{Work Experience}
 \begin{enumerate}[]
+  \item \textbf{Mantra Inc., Japan} \hfill 2024 Aug - 2024 Sep
+
+        Web Engineer Intern -- (Vue.js, GraphQL, Django, MySQL) [\href{https://mantra-present.vercel.app/1}{Final Presentation}]
+
+        Main Responsibilities: Developing new features, refactoring legacy code, quality assurance and fixing bugs based on the feedback from users and other team members
+
+        \begin{itemize}
+          \item Implemented a new feature for managing user roles and permissions in group, reducing the number of time to manually onboard new $N$ users from $O(N^2)$ to $O(N)$
+          \item Refactored data fetching logic to use GraphQL composables instead of effect-based approach, allowing for better cache revalidation and error handling
+          \item Introduced a security feature to archive a translated chapter to prevent changes from any user, reducing the risk of accidental data loss
+          \item Documented a style guide, problem-solving strategies, and best practices
+                for the team when completing the internship, to ensure the consistency and maintainability of the codebase
+          \item Fixed critical bugs in the translation pipeline that caused GPT-4 to not generate any output, by updating the dependencies in the server-side code
+        \end{itemize}
+
   \item \textbf{Sasatech Co. Ltd., Japan} \hfill 2023 Nov - 2024 Apr
 
         % Sasatech is a System Engineering Service company that provides contracted development services
@@ -94,22 +102,22 @@
 \cvsection{Recent Projects}
 
 \begin{enumerate}[]
-  \item \textbf{scrb -- Next-gen Scribblenauts clone built with Bevy and cutting-edge ML models} \hfill 2024 Jun - Present
+  % \item \textbf{scrb -- Next-gen Scribblenauts clone built with Bevy and cutting-edge ML models} \hfill 2024 Jun - Present
 
-        \begin{itemize}
-          \item Currently under development with \href{https://buildspace.so/}{Buildspace}, an intensive 6-week idea-to-launch program
-          \item Optimized the text-to-3d generation pipeline to generate game assets in sub 30 seconds
-          \item Support over 30000+ color names and arbitrary size modifiers using a dynamically loaded Trie tree
-        \end{itemize}
-        % \item \textbf{mrdm -- // TODO: list management tool} \href{https://github.com/Quatton/mrdm-cli}{[GitHub]} \href{https://crates.io/crates/mrdm}{[crates.io]} \hfill 2024 Apr - Present
-        % \item
-        %       Meridiem, Rust-based Open-source CLI tool for managing inline TODOs with over 300 downloads on \texttt{crates.io}
+  %       \begin{itemize}
+  %         \item Currently under development with \href{https://buildspace.so/}{Buildspace}, an intensive 6-week idea-to-launch program
+  %         \item Optimized the text-to-3d generation pipeline to generate game assets in sub 30 seconds
+  %         \item Support over 30000+ color names and arbitrary size modifiers using a dynamically loaded Trie tree
+  %       \end{itemize}
+  % \item \textbf{mrdm -- // TODO: list management tool} \href{https://github.com/Quatton/mrdm-cli}{[GitHub]} \href{https://crates.io/crates/mrdm}{[crates.io]} \hfill 2024 Apr - Present
+  % \item
+  %       Meridiem, Rust-based Open-source CLI tool for managing inline TODOs with over 300 downloads on \texttt{crates.io}
 
 
-        %       \begin{itemize}
-        %         \item Utilized regex-based pattern matching for extracting TODO comments from source code
-        %         \item Implemented features for tracking done status and exporting to readable markdown files
-        %       \end{itemize}
+  %       \begin{itemize}
+  %         \item Utilized regex-based pattern matching for extracting TODO comments from source code
+  %         \item Implemented features for tracking done status and exporting to readable markdown files
+  %       \end{itemize}
 
   \item \textbf{Memoiz -- Search Engine for Personal Notes} \href{https://lablab.ai/event/ai-startup-hackathon-episode-2/we-absolutely-have-no-idea/memoiz}{[Lablab.ai]} \hfill 2023 Apr
 
@@ -121,26 +129,26 @@
           \item Led a team of two to develop a full-stack web application for organizing and searching personal notes in 7 days
           \item Explored cutting-edge AI technologies through implementing vector-based semantic search via Redis and Cohere
           \item Standarized data querying, validation, and mutation using end-to-end type-safe APIs
-                \begin{itemize}
-                  \item Reduced boilerplate code by 50\% from initial REST-based implementation
-                  \item Boosted DX and team productivity, contributing to the project's success under tight deadlines
-                \end{itemize}
+                % \begin{itemize}
+                %   \item Reduced boilerplate code by 50\% from initial REST-based implementation
+                %   \item Boosted DX and team productivity, contributing to the project's success under tight deadlines
+                % \end{itemize}
         \end{itemize}
 
-  \item \textbf{Refoodable -- Unsold Food Redistribution Platform} \href{https://github.com/supawichable/ReFoodable}{[GitHub]}
-        \hfill 2023 Feb - 2023 Jun
+        % \item \textbf{Refoodable -- Unsold Food Redistribution Platform} \href{https://github.com/supawichable/ReFoodable}{[GitHub]}
+        %       \hfill 2023 Feb - 2023 Jun
 
-        Google Solution Challenge 2023: \textbf{Top 100 Finalist}
-        (Flutter, Firebase, Google Maps API)
+        %       Google Solution Challenge 2023: \textbf{Top 100 Finalist}
+        %       (Flutter, Firebase, Google Maps API)
 
-        \begin{itemize}
-          \item Led a team of four to design and develop a socially impactful mobile application in 2 months
-          \item Augmented a type-safe layer for schemaless and dynamic data structure using class extensions
-                \begin{itemize}
-                  \item Reduced runtime errors and improved code readablity for members not familiar with NoSQL
-                \end{itemize}
-          \item Utilizing a geohashing algorithm to filter nearby stores from over 100+ entries in real-time
-        \end{itemize}
+        %       \begin{itemize}
+        %         \item Led a team of four to design and develop a socially impactful mobile application in 2 months
+        %         \item Augmented a type-safe layer for schemaless and dynamic data structure using class extensions
+        %               \begin{itemize}
+        %                 \item Reduced runtime errors and improved code readablity for members not familiar with NoSQL
+        %               \end{itemize}
+        %         \item Utilizing a geohashing algorithm to filter nearby stores from over 100+ entries in real-time
+        %       \end{itemize}
 \end{enumerate}
 
 
