@@ -53,71 +53,87 @@
 
 \begin{itemize}
   \itemsep0em
-  \item \textbf{Programming Languages:} TypeScript, JavaScript, Rust, Python, Dart (Flutter), C, OCaml
-  \item \textbf{Actively Used Technologies:} Next.js, Vue.js, React, TailwindCSS, PostgreSQL
+  \item \textbf{Programming Languages:} TypeScript, JavaScript, Rust, Python, Dart (Flutter), C++, OCaml
+  \item \textbf{(Actively Used) Technologies:} Next.js, Nuxt, Vue.js, React, TailwindCSS, Bun, Node.js, PostgreSQL
   \item \textbf{Languages:} English (Business), Japanese (Business), Thai (Native)
 \end{itemize}
 
 \cvsection{Work Experience}
 \begin{enumerate}[]
+  \item \textbf{Akari Inc., Japan}  \hfill 2025 Mar - Present (Contract Renewation Period: 2025 May)
+
+        Software Engineer Intern (Next.js, Three.js, Chakra UI, PostgreSQL, S3, StepFunctions, Cognito, FastAPI, OpenAPI)
+
+        \begin{itemize}
+          \item Visualized Gaussian Splatting \& 3D point clouds with Three.js.
+          \item Introduced TanStack Query to cut API calls by 90\% via caching, and to improve performance by render-on-fetch.
+          \item Boosted CI/CD efficiency by caching artifacts (lint: 6 → 2 min; OpenAPI client generation: 27 → 2 sec).
+          \item Removed over 90GB of dangling files from S3 by implementing a lifecycle policy in Terraform.
+        \end{itemize}
+
   \item \textbf{Mantra Inc., Japan} \hfill 2024 Aug - 2024 Sep
 
-        Web Engineer Intern -- (Vue.js, GraphQL, Django, MySQL) [\href{https://mantra-present.vercel.app/1}{Final Presentation}]
-
-        Main Responsibilities: Developing new features, refactoring legacy code, quality assurance and fixing bugs based on the feedback from users and other team members
+        Web Engineer Intern (Vue.js, GraphQL, Django, MySQL) [\href{https://mantra-present.vercel.app/1}{Final Presentation}]
 
         \begin{itemize}
-          \item Implemented a new feature for managing user roles and permissions in group, reducing the number of time to manually onboard new $N$ users from $O(N^2)$ to $O(N)$
-          \item Refactored data fetching logic to use GraphQL composables instead of effect-based approach, allowing for better cache revalidation and error handling
-          \item Introduced a security feature to archive a translated chapter to prevent changes from any user, reducing the risk of accidental data loss
-          \item Documented a style guide, problem-solving strategies, and best practices
-                for the team when completing the internship, to ensure the consistency and maintainability of the codebase
-          \item Fixed critical bugs in the translation pipeline that caused GPT-4 to not generate any output, by updating the dependencies in the server-side code
+          \item Developed a role management feature reducing onboarding from O($N^2$) to O(N).
+          \item Refactored data fetching with GraphQL composables for improved caching and error handling.
+          \item Added a security archive for translated chapters to prevent unauthorized edits.
+          \item Documented a style guide and best practices for maintainability.
+          \item Fixed translation pipeline bugs by updating server dependencies.
         \end{itemize}
 
-  \item \textbf{Sasatech Co. Ltd., Japan} \hfill 2023 Nov - 2024 Apr
+        % \item \textbf{Sasatech Co. Ltd., Japan} \hfill 2023 Nov - 2024 Apr
 
-        % Sasatech is a System Engineering Service company that provides contracted development services
+        %       % Sasatech is a System Engineering Service company that provides contracted development services
 
-        Next.js Engineer Intern -- (Next.js, React, TypeScript, Tailwind CSS, Supabase, Vercel)
+        %       Next.js Engineer Intern -- (Next.js, React, TypeScript, Tailwind CSS, Supabase, Vercel)
 
-        Main Responsibilities: Building reusable components, standardizing the development process, and micro-optimization
-        \begin{itemize}
-          \item Pioneered a schema-agnostic, customizable foundation for building admin panels and CMS
-                \begin{itemize}
-                  \item Supported complex relations, dynamic form generation, and image uploads
-                  \item Successfully deployed one project to production with over 1,000 rows of data and 15 tables
-                  \item Saved 80\% from estimated development time via dynamic routes and code generation scripts
-                \end{itemize}
-          \item Automated synchronization of page view ranking using CRON jobs and Google Analytics API
-          \item Implemented utility functions for data querying and mutations
-                \begin{itemize}
-                  \item Fixed rate-limiting issues via server-side caching, reducing API calls by over 90\%
-                  \item Supported complex nested filtering, sorting, and pagination for large datasets
-                  \item Standardized access control for viewing public, private, and unlisted pages
-                \end{itemize}
-        \end{itemize}
+        %       Main Responsibilities: Building reusable components, standardizing the development process, and micro-optimization
+        %       \begin{itemize}
+        %         \item Pioneered a schema-agnostic, customizable foundation for building admin panels and CMS
+        %               \begin{itemize}
+        %                 \item Supported complex relations, dynamic form generation, and image uploads
+        %                 \item Successfully deployed one project to production with over 1,000 rows of data and 15 tables
+        %                 \item Saved 80\% from estimated development time via dynamic routes and code generation scripts
+        %               \end{itemize}
+        %         \item Automated synchronization of page view ranking using CRON jobs and Google Analytics API
+        %         \item Implemented utility functions for data querying and mutations
+        %               \begin{itemize}
+        %                 \item Fixed rate-limiting issues via server-side caching, reducing API calls by over 90\%
+        %                 \item Supported complex nested filtering, sorting, and pagination for large datasets
+        %                 \item Standardized access control for viewing public, private, and unlisted pages
+        %               \end{itemize}
+        %       \end{itemize}
 \end{enumerate}
 
 \cvsection{Recent Projects}
 
 \begin{enumerate}[]
-  % \item \textbf{scrb -- Next-gen Scribblenauts clone built with Bevy and cutting-edge ML models} \hfill 2024 Jun - Present
+  \item \textbf{scrb -- Next-gen Scribblenauts clone built with Bevy and TripoSR} \href{https://github.com/Quatton/scrb}{[GitHub]} \hfill 2024 Apr - Present
 
-  %       \begin{itemize}
-  %         \item Currently under development with \href{https://buildspace.so/}{Buildspace}, an intensive 6-week idea-to-launch program
-  %         \item Optimized the text-to-3d generation pipeline to generate game assets in sub 30 seconds
-  %         \item Support over 30000+ color names and arbitrary size modifiers using a dynamically loaded Trie tree
-  %       \end{itemize}
-  % \item \textbf{mrdm -- // TODO: list management tool} \href{https://github.com/Quatton/mrdm-cli}{[GitHub]} \href{https://crates.io/crates/mrdm}{[crates.io]} \hfill 2024 Apr - Present
-  % \item
-  %       Meridiem, Rust-based Open-source CLI tool for managing inline TODOs with over 300 downloads on \texttt{crates.io}
+        \begin{itemize}
+          \item Optimized the text-to-3d generation pipeline to generate game assets in sub-30 seconds (\textbf{locally} on Apple M3)
+          \item Support over 30000+ color names and arbitrary size modifiers using a dynamically loaded Trie tree
+        \end{itemize}
+        % \item \textbf{mrdm -- // TODO: list management tool} \href{https://github.com/Quatton/mrdm-cli}{[GitHub]} \href{https://crates.io/crates/mrdm}{[crates.io]} \hfill 2024 Apr - Present
+        % \item
+        %       Meridiem, Rust-based Open-source CLI tool for managing inline TODOs with over 300 downloads on \texttt{crates.io}
 
 
-  %       \begin{itemize}
-  %         \item Utilized regex-based pattern matching for extracting TODO comments from source code
-  %         \item Implemented features for tracking done status and exporting to readable markdown files
-  %       \end{itemize}
+        %       \begin{itemize}
+        %         \item Utilized regex-based pattern matching for extracting TODO comments from source code
+        %         \item Implemented features for tracking done status and exporting to readable markdown files
+        %       \end{itemize}
+
+  \item \textbf{qcpu -- Custom CPU Simulator \& Assembler} \hfill 2024 Oct - 2025 Mar
+
+        A Rust-based project that implements a specialized CPU simulator and assembler for a custom ISA. \href{https://github.com/Quatton/qcpu}{[GitHub]}
+
+        \begin{itemize}
+          \item Implemented a cycle-accurate simulation with lower than 0.03\% execution time prediction error
+          \item Optimized the simulator to achieve over 300 MIPS with statistics collection and 500 MIPS without
+        \end{itemize}
 
   \item \textbf{Memoiz -- Search Engine for Personal Notes} \href{https://lablab.ai/event/ai-startup-hackathon-episode-2/we-absolutely-have-no-idea/memoiz}{[Lablab.ai]} \hfill 2023 Apr
 
