@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1743313047.728 "out/resume.dvi" "out/resume.pdf" "out/resume" 1743313048.14759 0
-  "out/resume.dvi" 1743313047.70032 6724 0d3bbde16d2516824fc18327964f2bf1 "latex"
+["dvipdf"] 1745327549.16892 "out/resume.dvi" "out/resume.pdf" "out/resume" 1745327549.56104 0
+  "out/resume.dvi" 1745327549.1417 6760 30000f28e7eac798832576df52b8574a "latex"
   (generated)
   "out/resume.pdf"
   (rewritten before read)
-["latex"] 1743313047.1939 "/Users/quatton/Documents/GitHub/resume/resume.tex" "out/resume.dvi" "resume" 1743313048.14671 0
-  "/Users/quatton/Documents/GitHub/resume/resume.tex" 1743313046.98606 8178 b84fdd198e2439f3f1eadac518abac6c ""
+["latex"] 1745327548.68803 "/Users/quatton/Documents/GitHub/resume/resume.tex" "out/resume.dvi" "resume" 1745327549.5602 0
+  "/Users/quatton/Documents/GitHub/resume/resume.tex" 1745327548.44451 8487 e7f88e417d2b91cbebb712d8fce6ab0c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -66,9 +66,9 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1712302274 8157536 07e7c56795392690938a4627304cf086 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "out/resume.aux" 1743313047.69964 128 96bec76fb2d4f59905e799aefa8e9f5a "latex"
-  "out/resume.out" 1743313047.68151 0 d41d8cd98f00b204e9800998ecf8427e "latex"
-  "resume.tex" 1743313046.98606 8178 b84fdd198e2439f3f1eadac518abac6c ""
+  "out/resume.aux" 1745327549.14088 128 96bec76fb2d4f59905e799aefa8e9f5a "latex"
+  "out/resume.out" 1745327549.12654 0 d41d8cd98f00b204e9800998ecf8427e "latex"
+  "resume.tex" 1745327548.44451 8487 e7f88e417d2b91cbebb712d8fce6ab0c ""
   (generated)
   "out/resume.aux"
   "out/resume.dvi"

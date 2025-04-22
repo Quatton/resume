@@ -52,23 +52,27 @@
 \cvsection{Actively Used Technologies \& Languages}
 
 \begin{itemize}
-  \itemsep0em
+  \itemsep 0em
   \item \textbf{Programming Languages:} TypeScript, JavaScript, Rust, Python, Dart (Flutter), C++, OCaml
-  \item \textbf{(Actively Used) Technologies:} Next.js, Nuxt, Vue.js, React, TailwindCSS, Bun, Node.js, PostgreSQL
+  \item \textbf{Frontend:} React, Vue.js, Next.js, Nuxt, TailwindCSS, Three.js, TanStack Query, TanStack Router
+  \item \textbf{Server-side:} Node.js, Bun, FastAPI, Django, tRPC, Axum, Hono.js, Elysia.js, oRPC
+        % \item \textbf{State Management:} Redux, Zustand, Pinia, TanStack Query
+  \item \textbf{Databases \& Query Engine:} PostgreSQL, Turso, D1, Redis, Prisma, GraphQL, DrizzleORM
+  \item \textbf{Cloud \& DevOps:} AWS (S3, Cognito, Aurora, StepFunctions), Cloudflare, Vercel, Terraform, OpenAPI
+        % \item \textbf{Game Development \& Graphics:} Bevy, wgpu, OpenGL
   \item \textbf{Languages:} English (Business), Japanese (Business), Thai (Native)
 \end{itemize}
 
 \cvsection{Work Experience}
 \begin{enumerate}[]
-  \item \textbf{Akari Inc., Japan}  \hfill 2025 Mar - Present (Contract Renewation Period: 2025 May)
+  \item \textbf{Akari Inc., Japan}  \hfill 2025 Mar - Present (2025 June)
 
         Software Engineer Intern (Next.js, Three.js, Chakra UI, PostgreSQL, S3, StepFunctions, Cognito, FastAPI, OpenAPI)
 
         \begin{itemize}
-          \item Visualized Gaussian Splatting \& 3D point clouds with Three.js.
-          \item Introduced TanStack Query to cut API calls by 90\% via caching, and to improve performance by render-on-fetch.
-          \item Boosted CI/CD efficiency by caching artifacts (lint: 6 → 2 min; OpenAPI client generation: 27 → 2 sec).
-          \item Removed over 90GB of dangling files from S3 by implementing a lifecycle policy in Terraform.
+          \item Reduced GitHub Action time from 6 to 2 minutes by caching artifacts, saving 50+ hours monthly
+          \item Cleared 90GB+ of unused S3 files by implementing Terraform lifecycle policies.
+          \item Improved page load speed 8x by optimizing and consolidating API calls.
         \end{itemize}
 
   \item \textbf{Mantra Inc., Japan} \hfill 2024 Aug - 2024 Sep
@@ -76,11 +80,11 @@
         Web Engineer Intern (Vue.js, GraphQL, Django, MySQL) [\href{https://mantra-present.vercel.app/1}{Final Presentation}]
 
         \begin{itemize}
-          \item Developed a role management feature reducing onboarding from O($N^2$) to O(N).
+          \item Developed a role management feature reducing onboarding new users from O($N^2$) to O($N$).
           \item Refactored data fetching with GraphQL composables for improved caching and error handling.
-          \item Added a security archive for translated chapters to prevent unauthorized edits.
+          \item Added a lock feature for translated chapters to prevent unauthorized edits.
           \item Documented a style guide and best practices for maintainability.
-          \item Fixed translation pipeline bugs by updating server dependencies.
+                % \item Fixed translation pipeline bugs by updating server dependencies.
         \end{itemize}
 
         % \item \textbf{Sasatech Co. Ltd., Japan} \hfill 2023 Nov - 2024 Apr
